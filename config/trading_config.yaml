@@ -1,0 +1,50 @@
+"""Configuration file for trading parameters"""
+
+trading:
+  initial_capital: 10000
+  max_positions: 5
+  risk_per_trade: 0.02  # 2% risk per trade
+  order_type: "limit"  # limit or market
+  
+strategies:
+  moving_average:
+    enabled: true
+    fast_period: 10
+    slow_period: 20
+    timeframe: "1h"
+  
+  rsi:
+    enabled: true
+    period: 14
+    oversold: 30
+    overbought: 70
+    timeframe: "4h"
+  
+  macd:
+    enabled: true
+    fast: 12
+    slow: 26
+    signal: 9
+    timeframe: "1h"
+
+brokers:
+  paper_trader:
+    slippage: 0.001
+    commission: 0.001
+  
+  binance:
+    sandbox: true
+    api_key: ""
+    api_secret: ""
+
+risk_management:
+  max_drawdown: 0.20  # 20% max drawdown
+  position_size: 0.05  # 5% per position
+  stop_loss_pct: 0.02  # 2% stop loss
+  take_profit_pct: 0.05  # 5% take profit
+
+backtesting:
+  start_date: "2022-01-01"
+  end_date: "2024-12-31"
+  timeframe: "1h"
+  fee: 0.001
