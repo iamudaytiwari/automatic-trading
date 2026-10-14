@@ -65,7 +65,7 @@ pytz==2023.3
 
 # Security
 cryptography==41.0.7
-pyjwt==2.8.1
+pyjwt==2.15.0
 
 # Documentation
 sphinx==7.2.6
