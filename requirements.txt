@@ -36,7 +36,7 @@ celery==5.3.4
 
 # Configuration & Environment
 python-dotenv==1.0.0
-pyyaml==6.0.1
+pyyaml==6.0.3
 toml==0.10.2
 
 # Logging & Monitoring
