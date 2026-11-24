@@ -35,7 +35,7 @@ asyncio==3.4.3
 celery==5.3.4
 
 # Configuration & Environment
-python-dotenv==1.0.0
+python-dotenv==1.2.2
 pyyaml==6.0.1
 toml==0.10.2
 
