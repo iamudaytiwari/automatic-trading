@@ -20,7 +20,7 @@ prophet==1.1.5
 
 # Web Framework & Dashboard
 flask==3.0.0
-dash==2.14.1
+dash==2.15.0
 plotly==5.18.0
 flask-cors==4.0.0
 
